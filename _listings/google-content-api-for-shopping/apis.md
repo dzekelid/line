@@ -12,11 +12,47 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Line
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/line/master/_listings/google-content-api-for-shopping/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Content API for Shopping - Cancel Order Line Item
+  x-api-slug: merchantidordersorderidcancellineitem-post
+  description: Cancels a line item. This method can only be called for non-multi-client
+    accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: ://www.googleapis.com//content/v2
+  tags: Shopping, Commerce, Content, Google APIs, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/line/master/_listings/google-content-api-for-shopping/merchantidordersorderidcancellineitem-post-openapi.md
+- name: Content API for Shopping - Return Line Item
+  x-api-slug: merchantidordersorderidreturnlineitem-post
+  description: Returns a line item. This method can only be called for non-multi-client
+    accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: ://www.googleapis.com//content/v2
+  tags: Shopping, Commerce, Content, Google APIs, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/line/master/_listings/google-content-api-for-shopping/merchantidordersorderidreturnlineitem-post-openapi.md
+- name: Content API for Shopping - Ship Line Item
+  x-api-slug: merchantidordersorderidshiplineitems-post
+  description: Marks line item(s) as shipped. This method can only be called for non-multi-client
+    accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: ://www.googleapis.com//content/v2
+  tags: Shopping, Commerce, Content, Google APIs, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/line/master/_listings/google-content-api-for-shopping/merchantidordersorderidshiplineitems-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.container.engine.api.gallery.streamdata.io
